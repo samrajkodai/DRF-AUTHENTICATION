@@ -31,11 +31,11 @@ DATABASES = {
 }  
 ```
 ### step 1
-for Installing Djoser use this command
+Install the dependencies by using the following command.
 
 
 ```sh
-pip install djoser
+pip install -r requirements.txt
 ```
 
 ### step 2
