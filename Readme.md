@@ -80,6 +80,18 @@ visit the following urls it's works
 - http://127.0.0.1:8000/token/login
 
 
+### signup
+![Screenshot_1](https://user-images.githubusercontent.com/61903698/188263952-b633b7c4-407d-4b07-bb3c-588c94d57059.png)
+
+### Login
+![Screenshot_2](https://user-images.githubusercontent.com/61903698/188264004-22a1b86d-9d89-47ef-8c14-1757fbdbdf2c.png)
+
+### token
+
+![Screenshot_3](https://user-images.githubusercontent.com/61903698/188264036-d0bfc9b7-7bf8-4e49-aeda-04cbdb9392c7.png)
+
+
+
 ## License
 
 MIT
