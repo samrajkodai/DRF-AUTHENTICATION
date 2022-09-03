@@ -45,10 +45,12 @@ and also add the djoser in urls.py file
     path('',include("djoser.urls")),
     path('',include('djoser.urls.authtoken'))
 ```
-### step 6
-for running server using
+### step 4
+make migrations and run the server
 
 ```sh
+    python manage.py makemigrations
+    python manage.py migrate
     python manage.py runserver
 ```
 
