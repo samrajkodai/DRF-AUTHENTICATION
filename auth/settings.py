@@ -120,7 +120,15 @@ REST_FRAMEWORK = {
 
 }
 
+AUTH_USER_MODEL='authapp.User'
 
+DJOSER = {
+'SERIALIZERS': {
+   'user_create': 'authapp.serializers.UserCreateSerializer',
+    'user': 'authapp.serializers.UserCreateSerializer',
+    # [...]
+}
+}
 # Internationalization
 # https://docs.djangoproject.com/en/4.0/topics/i18n/
 

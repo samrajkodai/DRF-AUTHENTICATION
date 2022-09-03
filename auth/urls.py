@@ -20,7 +20,7 @@ import authapp
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',include("authapp.urls")),
-    path('auth/',include("djoser.urls")),
+    path('',include("djoser.urls")),
     path('',include('djoser.urls.authtoken'))
 
 ]
