@@ -12,6 +12,24 @@ Djoser is a Package that hepls to make a authentication easier.
 
 To learn more about djoser please visit https://djoser.readthedocs.io/en/latest/
 
+## Database 
+
+This project is connected with mysql Database for connecting mySQL Database using this following configurations
+```sh
+DATABASES = {  
+    'default': {  
+        'ENGINE': 'django.db.backends.mysql',  
+        'NAME': 'yor_database',  
+        'USER': 'root',  
+        'PASSWORD': 'your_password',  
+        'HOST': '127.0.0.1',  
+        'PORT': '3306',  
+        'OPTIONS': {  
+            'init_command': "SET sql_mode='STRICT_TRANS_TABLES'"  
+        }  
+    }  
+}  
+```
 ### step 1
 for Installing Djoser use this command
 
