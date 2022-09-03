@@ -7,24 +7,37 @@
 
 This project is about make an authentication with Django Rest Framework token with Djoser.
 
-## Djoser
+## Djoser Installation and setup
 Djoser is a Package that hepls to make a authentication easier. 
 
 To learn more about djoser please visit https://djoser.readthedocs.io/en/latest/
 
+### step 1
 for Installing Djoser use this command
+
 
 ```sh
 pip install djoser
 ```
 
-## Features
+### step 2
 
-- Simplicity, flexibility, quality, and test coverage of source code.
-- Powerful serialization engine compatible with both ORM and non-ORM data sources.
-- Pluggable and easy to customise emitters, parsers, validators and authenticators.
-- Generic classes for CRUD operations.
+Add the djoser and rest_framework in setting.py file
 
+```sh
+INSTALLED_APPS = [
+    'django.contrib.admin',
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
+    'django.contrib.sessions',
+    'django.contrib.messages',
+    'django.contrib.staticfiles',
+    'authapp',
+    'rest_framework',
+    'djoser',
+    'rest_framework.authtoken'
+]
+```
 
 ## Installation
 
