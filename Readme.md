@@ -79,47 +79,6 @@ visit the following urls it's works
 - http://127.0.0.1:8000/users/
 - http://127.0.0.1:8000/token/login
 
-## Installation
-
-Django Rest Frame_work requires
-
-
-Install the dependencies by using the following command.
-
-```sh
-pip install djangorestframework
-```
-
-add the frame work in settings file...
-
-```sh
-INSTALLED_APPS = [
-    'django.contrib.admin',
-    'django.contrib.auth',
-    'django.contrib.contenttypes',
-    'django.contrib.sessions',
-    'django.contrib.messages',
-    'django.contrib.staticfiles',
-    'API',
-    'rest_framework',
-    'rest_framework_swagger',
-]
-```
-
-## Server
-
-for start the django server use the following command
-
-```sh
-python manage.py runserver
-```
-
-Verify the deployment by navigating to your server address in
-your preferred browser.
-
-```sh
-127.0.0.1:8000
-```
 
 ## License
 
