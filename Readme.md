@@ -14,7 +14,7 @@ To learn more about djoser please visit https://djoser.readthedocs.io/en/latest/
 
 for Installing Djoser use this command
 
-    ```sh
+```sh
 pip install djoser
 ```
 
