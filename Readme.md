@@ -45,9 +45,16 @@ and also add the djoser in urls.py file
     path('',include("djoser.urls")),
     path('',include('djoser.urls.authtoken'))
 ```
-### step 4
+### step 6
+for running server using
 
-please visit the following urls it's works
+```sh
+    python manage.py runserver
+```
+
+### step 5
+
+visit the following urls it's works
 
 - http://127.0.0.1:8000/users/
 - http://127.0.0.1:8000/token/login
