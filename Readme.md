@@ -38,6 +38,14 @@ INSTALLED_APPS = [
     'rest_framework.authtoken'
 ]
 ```
+### step 3
+
+and also add the djoser in urls.py file
+```sh
+    path('',include("djoser.urls")),
+    path('',include('djoser.urls.authtoken'))
+```
+
 
 ## Installation
 
