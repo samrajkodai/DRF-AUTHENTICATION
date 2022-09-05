@@ -86,7 +86,7 @@ visit the following urls it's works
 ### Login
 ![Screenshot_2](https://user-images.githubusercontent.com/61903698/188264004-22a1b86d-9d89-47ef-8c14-1757fbdbdf2c.png)
 
-### token
+### Token
 
 ![Screenshot_3](https://user-images.githubusercontent.com/61903698/188264036-d0bfc9b7-7bf8-4e49-aeda-04cbdb9392c7.png)
 
