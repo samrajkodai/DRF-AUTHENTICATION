@@ -1,4 +1,4 @@
-# DJANGO REST AUTHENTICATION with DJOSER
+# DJANGO REST AUTHENTICATION with DJOSER.
 
 
 [![N|Solid](https://user-images.githubusercontent.com/61903698/188264476-cd5f36d4-04ac-4198-842b-c5d1f1ecd3fd.png)
